@@ -1,0 +1,63 @@
+/* 共通 */
+.container {
+    padding: 1.5% 8%;
+}
+
+form > p, .container > p {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+label {
+    padding-top: 7px;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+/* contact.html */
+.require_item {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    width: 62.5%;
+    padding: 3.75% 0;
+    float: right;
+}
+
+.error_msg {
+    font-size: 14px;
+    color: #ff0000;
+    height: 14px;
+}
+
+/* confirm.html */
+.display_item {
+    padding: 7px 0;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #000;
+    border: solid 0.5px rgb(173, 173, 173);
+    background-color: #f7f7f7;
+    padding: 3.5px 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/* thanks.html */
+.thanks_msg {
+    text-align: center;
+    background-color: #c8fbff;
+    padding:20px 0 50px;
+}
+
+img {
+    border-radius: 50%;
+}
